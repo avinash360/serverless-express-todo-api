@@ -9,13 +9,13 @@ provider:
   runtime: nodejs12.x
   lambdaHashingVersion: '20201221'
   environment:
-    API_KEY: ${param: apiKey}
-    AUTH_DOMAIN: ${param: authDomain}
-    DATABASE_URL: ${param: databaseURL}
-    PROJECT_ID: ${param: projectId}
-    STORAGE_BUCKET: ${param: storageBucket}
-    MESSAGING_SENDER_ID: ${param: messagingSenderId}
-    APP_ID: ${param: appId}
+    API_KEY: ${param:apiKey}
+    AUTH_DOMAIN: ${param:authDomain}
+    DATABASE_URL: ${param:databaseURL}
+    PROJECT_ID: ${param:projectId}
+    STORAGE_BUCKET: ${param:storageBucket}
+    MESSAGING_SENDER_ID: ${param:messagingSenderId}
+    APP_ID: ${param:appId}
 
 functions:
   api:
